@@ -1,12 +1,51 @@
-# React + Vite
+# 📝 MyTodo – Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive To-Do list web application built with **React.js**, **Tailwind CSS**, and **Context API**, designed for efficient task management with persistent local storage.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [todo-list-snowy-psi.vercel.app/](https://todo-list-snowy-psi.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+
+- ✅ Add, delete, and mark tasks as completed
+- 💾 Persistent data using **localStorage**
+- 🎯 Built with **React Context API** for global state management
+- 📱 Fully responsive UI powered by **Tailwind CSS**
+- 🌙 Clean and minimal design for enhanced usability
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, JavaScript, Tailwind CSS
+- **State Management:** React Context API
+- **Storage:** Browser LocalStorage
+- **Deployment:** Vercel
+
+---
+
+## 🖼️ Preview
+
+![App Screenshot](public/My-Todo.png)
+
+---
+
+## 📦 Getting Started
+
+Follow these instructions to run the project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/archit-tiwari-26/Todo-List.git
+
+# 2. Navigate to the project directory
+cd Todo-List
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
